@@ -196,7 +196,7 @@ if (!isNaN(form)) {
 
 
 console.log("--------------- exo 2.2 = affichez les nombres paire");
-
+/*
 let form2 = prompt("Mettre un nombre de 10 a 100")
 
 if (form2 < 100 && form2 > 10){
@@ -211,7 +211,31 @@ if (form2 < 100 && form2 > 10){
 
 }else{
     alert("frero ton chiffre est aps comme demander dans la consigne alors respect la gros")
+}*/
+
+console.log("--------------- exo 3 = le mot le plus long et le plus court");
+
+
+let tabString = [
+    "Cucurbitacée",
+    "Landau"
+]
+
+console.log(tabString[1-1].length);
+while (i < tabString.length) {
+
+    if (i == 0){
+        if (tabString[i].length > tabString[i+1].length){
+            console.log(tabString[i] + " est plus petit");
+        }else{
+            console.log(tabString[i] + " est plus grand");
+        }
+    }
+    i++
 }
+
+
+
 
 
 
