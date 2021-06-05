@@ -51,15 +51,22 @@ let array = [
     'test',
     42,
     99.99,
-    [0]
+    [0],
+    "salut je suis un homme qui est sympas vraiment sympa"
 ];
 
 console.log(array);
 console.log(array[1]);
 console.log(array[0]);
+console.log(array[4]);
 
 
 console.log("---------- verfier une valeur : String, tableau");
+
+console.log(array.indexOf('test'));
+
+let variabletxt = array[4];
+console.log(variabletxt.indexOf('je'));
 
 
 
